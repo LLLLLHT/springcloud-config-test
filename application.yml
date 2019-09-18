@@ -1,16 +1,16 @@
-sping: 
- profiles: test
-  active:
-   -dev
-service: 
- port: 8088
+sping:
+  profiles: test
+    active:
+      -dev
+service:
+  port: 8088
 ---
-spring: 
- profiles: dev
- application: 
-  name: dev-springcloud
---
 spring:
- profiles: test
- application:
-  name: test-springcloud
+  profiles: dev
+  application:
+    name: dev-springcloud
+---
+spring:
+  profiles: test
+  application:
+    name: test-springcloud
