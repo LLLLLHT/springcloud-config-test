@@ -1,7 +1,7 @@
 sping:
   profiles: test
     active:
-      -dev
+      dev
 service:
   port: 8088
 ---
