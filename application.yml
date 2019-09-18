@@ -1,2 +1,9 @@
-sping:
- test
+sping: 
+ profiles: test
+service: 
+ port: 8088
+---
+spring: 
+ profiles: dev
+service: 
+ port: 8099
